@@ -4,12 +4,12 @@ import styles from './Style';
 
 const iconinicio = require('./Assets/inicio.png');
 const LoginScreen = () => {
-  const [email, setEmail] = useState('');
+  const [user, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
     // Validación simple
-    if (email === 'user@example.com' && password === 'password123') {
+    if (user === 'usuario' && password === '123') {
       Alert.alert('Login Exitoso', 'Bienvenido!');
     } else {
       Alert.alert('Error', 'Credenciales incorrectas');
@@ -22,8 +22,8 @@ const LoginScreen = () => {
       <Text style={styles.title}>Ingreso a biblioteca web</Text>
       <TextInput
         style={styles.input}
-        placeholder="Correo Electrónico"
-        value={email}
+        placeholder="Usuario"
+        value={user}
         onChangeText={setEmail}
         keyboardType="email-address"
         autoCapitalize="none"
