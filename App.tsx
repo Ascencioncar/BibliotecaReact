@@ -10,7 +10,6 @@ const LoginScreen = () => {
   const handleLogin = () => {
     // Validación simple
     if (user === 'usuario' && password === '123') {
-      Alert.alert('Login Exitoso', 'Bienvenido!');
     } else {
       Alert.alert('Error', 'Credenciales incorrectas');
     }

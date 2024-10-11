@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     borderRadius: 25,
     textAlign: 'center',
-    width: Dimensions.get('screen').width * 0.75,
+    width: Dimensions.get('screen').width * 0.80,
   },
     imagen:{
         width: 180,
