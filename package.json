@@ -10,10 +10,14 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.4.1",
     "@vercel/postgres": "^0.10.0",
     "LibraryOnline": "file:",
     "react": "18.3.1",
-    "react-native": "0.75.4"
+    "react-native": "0.75.4",
+    "react-native-safe-area-context": "^4.11.0",
+    "react-native-screens": "^3.34.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

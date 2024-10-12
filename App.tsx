@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import {View,Text,Image, TextInput,Button,Alert} from 'react-native';
 import styles from './Style';
 
+
 const iconinicio = require('./Assets/inicio.png');
 const LoginScreen = () => {
   const [user, setEmail] = useState('');
   const [password, setPassword] = useState('');
+
 
   const handleLogin = () => {
     // Validación simple
