@@ -12,6 +12,7 @@ const LoginScreen = () => {
   const handleLogin = () => {
     // Validación simple
     if (user === 'usuario' && password === '123') {
+      Alert.alert('Credenciales correctas');
     } else {
       Alert.alert('Error', 'Credenciales incorrectas');
     }
