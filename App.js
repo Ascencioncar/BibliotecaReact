@@ -22,10 +22,12 @@ export default function App() {
           headerStyle: { backgroundColor: "#525FE1"}
         }} />
         <Stack.Screen name="Home" component={Home}
-        options={{title: "Inicio",
+        options={{ headerLeft: null,
+          title: "Inicio",
           headerTintColor: 'white',
           headerTitleAlign: 'center',
           headerStyle: { backgroundColor: "#525FE1"}}}
+          
         />
 
       </Stack.Navigator>
