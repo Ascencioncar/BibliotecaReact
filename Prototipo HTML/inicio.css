@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#libros ul {
+    list-style: none;
+    padding: 0;
+}
+
+#libros li {
+    margin: 10px;
+}
