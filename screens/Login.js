@@ -4,6 +4,7 @@ import { TextInput, StyleSheet, View, Image, TouchableOpacity, Text, Alert } fro
 import appfirebase from "../credenciales";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
+
 // Inicializa Firebase Auth sin persistencia explícita
 const auth = getAuth(appfirebase); 
 

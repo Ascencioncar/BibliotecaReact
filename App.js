@@ -6,6 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native'
 import Login from './screens/Login';
 import Home from './screens/Home';
+import Primerlibro from './screens/PrimerLibro';
 
 export default function App() {
 
@@ -26,10 +27,9 @@ export default function App() {
           title: "Inicio",
           headerTintColor: 'white',
           headerTitleAlign: 'center',
-          headerStyle: { backgroundColor: "#525FE1"}}}
-          
-        />
+          headerStyle: { backgroundColor: "#525FE1"}}}/>
 
+        <Stack.Screen name="Primer Libro" component={Primerlibro}/>
       </Stack.Navigator>
     );
   }
